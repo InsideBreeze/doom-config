@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: react function component
+# key: rfc
+# --
+import * as React from 'react'
+
+export default function ${1:`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`}() {
+  return <div>${0:Hello}</div>
+}

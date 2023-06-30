@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: typescript-function-component
+# key: tsfc
+# --
+import * as React from 'react'
+
+interface Props {
+
+}
+export default function ${1:`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`}({ }: Props) {
+  return <div>${0:Hello}</div>
+}
